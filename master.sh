@@ -1,5 +1,5 @@
 #!/bin/bash
-./$1
+./${SCRIPT_NAME}
 RETURN=$?
 
 if [ $RETURN -eq 0 ];
